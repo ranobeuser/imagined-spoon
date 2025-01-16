@@ -1,0 +1,35 @@
+import sys
+
+from PyQt5.QtCore import QSize, Qt
+from PyQt5.QtWidgets import (QApplication, QWidget, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QGridLayout,QStackedLayout,QLineEdit,QTimeEdit,QLCDNumber)
+
+from PyQt5.QtGui import QColor, QPalette
+from PyQt5.QtWidgets import QWidget
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle("Задание 1: Кликер")
+        
+        Layout = QVBoxLayout()
+
+        widget = QWidget()
+        widget.setLayout(Layout)
+        
+        
+        
+        
+        self.setCentralWidget(widget)
+         # Button = QPushButton("Name")
+         # Button.clicked.connect(self.Click)
+         # self.findChild(QLineEdit).setText(str(result))
+    
+    def Click(self):
+        button = self.sender()
+        text = button.text()
+        
+app=QApplication(sys.argv)
+window = MainWindow()
+window.show()
+app.exec()
