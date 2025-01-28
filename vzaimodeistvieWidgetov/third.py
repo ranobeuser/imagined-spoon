@@ -37,24 +37,22 @@ class MainWindow(QMainWindow):
         
         self.proceed_button = QPushButton("Подтвердить")
         self.proceed_button.setStyleSheet("background: green")
-        self.proceed_button.clicked.connect(self.Button)
+        self.proceed_button.clicked.connect(self.Replace)
         self.Layout.addWidget(self.proceed_button)
-        
-        
-        self.setCentralWidget(widget)
-         # Button = QPushButton("Name")
-         # Button.clicked.connect(self.Click)
-         # self.findChild(QLineEdit).setText(str(result))
-    
-    def Button(self):
-        self.fio = self.line_edit.text()
-        self.town = self.
         
         self.text_variable = f"Ваша информация:\nФИО: {self.fio}\nГород: {self.town}\nПол: {self.sex}"
     
         self.text_label = QLabel(self.text_variable)
         self.text_label.setAlignment(QtCore.Qt.AlignTop)
         self.Layout.addWidget(self.text_label)
+        
+        self.setCentralWidget(widget)
+         # Button = QPushButton("Name")
+         # Button.clicked.connect(self.Click)
+         # self.findChild(QLineEdit).setText(str(result))
+    
+    def Replace(self):
+        self.text_label.setText(f"Ваша информация:\nФИО: {self.line_edit.text()}\nГород: {self.town_combo.currentText()}\nПол: {self.sex_combo.currentText()}")
 
 
 app=QApplication(sys.argv)
