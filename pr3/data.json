@@ -1,0 +1,77 @@
+[
+  {
+    "city": "Москва",
+    "temperature": -5,
+    "unit": "°C"
+  },
+  {
+    "city": "Лондон",
+    "temperature": 8,
+    "unit": "°C"
+  },
+  {
+    "city": "Токио",
+    "temperature": 12,
+    "unit": "°C"
+  },
+  {
+    "city": "Берлин",
+    "temperature": 4,
+    "unit": "°C"
+  },
+  {
+    "city": "Вашингтон",
+    "temperature": 15,
+    "unit": "°C"
+  },
+  {
+    "city": "Париж",
+    "temperature": 6,
+    "unit": "°C"
+  },
+  {
+    "city": "Сидней",
+    "temperature": 22,
+    "unit": "°C"
+  },
+  {
+    "city": "Буэнос-Айрес",
+    "temperature": 26,
+    "unit": "°C"
+  },
+  {
+    "city": "Дубай",
+    "temperature": 31,
+    "unit": "°C"
+  },
+  {
+    "city": "Пекин",
+    "temperature": 2,
+    "unit": "°C"
+  },
+  {
+    "city": "Мехико",
+    "temperature": 18,
+    "unit": "°C"
+  },
+  {
+    "city": "Рим",
+    "temperature": 10,
+    "unit": "°C"
+  },
+  {
+    "city": "Стамбул",
+    "temperature": 9,
+    "unit": "°C"
+  },
+  {
+    "city": "Сеул",
+    "temperature": 3,
+    "unit": "°C"
+  },
+  {
+    "city": "Кейптаун",
+    "temperature": 25,
+    "unit": "°C"
+  }
+]
